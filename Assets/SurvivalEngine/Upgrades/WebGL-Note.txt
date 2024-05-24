@@ -1,0 +1,11 @@
+
+WebGL is not directly supported by Netcode, so if you try building to WebGL the networking features will not work.
+The issue is that the Transport Layer (Unity Transport) uses UDP sockets and UDP isn't supported by WebGL.
+There is non-official solution to this and it is to replace the transport layer with Websocket transport, which uses TCP.
+Please note that TCP will be slower and less performant than UDP.
+Survival Engine does not edit any of the transport layer so there should be no issues, however this has not been tested yet.
+
+You can get the websocket package here: (com.community.netcode.transport.websocket)
+https://github.com/Unity-Technologies/multiplayer-community-contributions/tree/main/Transports/com.community.netcode.transport.websocket
+
+
