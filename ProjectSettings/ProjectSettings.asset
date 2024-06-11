@@ -719,6 +719,7 @@ PlayerSettings:
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
     PS4: UNITY_POST_PROCESSING_STACK_V2
     PS5: UNITY_POST_PROCESSING_STACK_V2
+    Server: SURVIVAL_ENGINE_ONLINE
     Stadia: UNITY_POST_PROCESSING_STACK_V2
     Standalone: UNITY_POST_PROCESSING_STACK_V2;SURVIVAL_ENGINE_ONLINE
     WebGL: UNITY_POST_PROCESSING_STACK_V2
@@ -823,11 +824,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 
+  cloudProjectId: 27649cf9-1ee5-4760-a108-6a91692ab49d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Fanren333
+  organizationId: adrian-yao
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

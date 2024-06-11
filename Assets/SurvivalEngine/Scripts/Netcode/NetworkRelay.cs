@@ -98,7 +98,7 @@ namespace NetcodePlus
         {
             try
             {
-                if (!AuthenticationService.Instance.IsAuthorized)
+                //if (!AuthenticationService.Instance.IsAuthorized)
                 {
                     await UnityServices.InitializeAsync();
                     await AuthenticationService.Instance.SignInAnonymouslyAsync();
