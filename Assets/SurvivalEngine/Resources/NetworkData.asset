@@ -16,15 +16,14 @@ MonoBehaviour:
   players_max: 8
   player_default: {fileID: 6778699993473853970, guid: 35721d40c53744f4b945769b3cf3965b,
     type: 3}
-  save_type: 0
-  lobby_host: server.survival-engine.com
+  lobby_host: 8.210.33.54
   lobby_port: 7800
-  lobby_game_type: 10
+  lobby_game_type: 20
   lobby_rooms_max: 10
   game_port_min: 7701
   game_port_max: 7799
-  game_path_windows: ../ServerGame/SurvivalEngineOnline.exe
-  game_path_linux: /server/game/ServerGame.x86_64
+  game_path_windows: 
+  game_path_linux: /home/admin/server/fanrengameserver_ds/fanren_lobby.x86_64
   game_hosts: []
-  auth_type: 0
-  auth_auto_logout: 0
+  auth_type: 5
+  auth_auto_logout: 1
